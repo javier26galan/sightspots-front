@@ -1,0 +1,26 @@
+.profile {
+    padding: 20px;
+    color: var(--primary);
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    &__greeting {
+        font-size: 40px;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    &__avatar {
+        border-radius: 50%;
+        height: 75px;
+        min-width: 75px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
